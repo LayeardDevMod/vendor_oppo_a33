@@ -259,7 +259,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \ 
    vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_common.so:system/vendor/lib/libchromatix_imx179_15399_common.so \
    vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_common_new.so:system/vendor/lib/libchromatix_imx179_15399_common_new.so \
-   vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_default_video.so:system/vendor/lib/libchromatix_imx179_15399_common_new.so \
+   vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_default_video.so:system/vendor/lib/libchromatix_imx179_15399_default_video.so \
    vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_hfr_120.so:system/vendor/lib/libchromatix_imx179_15399_hfr_120.so \
    vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_liveshot.so:system/vendor/lib/libchromatix_imx179_15399_liveshot.so \
    vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_preview.so:system/vendor/lib/libchromatix_imx179_15399_preview.so \
