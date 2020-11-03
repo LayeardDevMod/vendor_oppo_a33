@@ -26,7 +26,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_snapshot.so:system/vendor/lib/libchromatix_imx179_15399_snapshot.so \
-    vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_video_ning.so:system/vendor/lib/libchromatix_imx179_15399_video_ning.so \
+    vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_video_binning.so:system/vendor/lib/libchromatix_imx179_15399_video_binning.so \
     vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_video_hd.so:system/vendor/lib/libchromatix_imx179_15399_video_hd.so \
     vendor/oppo/A37/proprietary/vendor/lib/libmmcamera_imx179_15399.so:system/vendor/lib/libmmcamera_imx179_15399.so \
     vendor/oppo/A37/proprietary/vendor/lib/libmmcamera_sony_imx179_eeprom.so:system/vendor/lib/libmmcamera_sony_imx179_eeprom.so \
@@ -268,8 +268,8 @@ PRODUCT_COPY_FILES += \
   vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_hfr_120.so:system/vendor/lib/libchromatix_imx179_15399_hfr_120.so \
   vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_liveshot.so:system/vendor/lib/libchromatix_imx179_15399_liveshot.so \
   vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_preview.so:system/vendor/lib/libchromatix_imx179_15399_preview.so \
-  vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_preview_ning.so:system/vendor/lib/libchromatix_imx179_15399_preview_ning.so \
-  vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_preview_ning_new.so:system/vendor/lib/libchromatix_imx179_15399_preview_ning_new.so \
+  vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_preview_binning.so:system/vendor/lib/libchromatix_imx179_15399_preview_binning.so \
+  vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_preview_binning_new.so:system/vendor/lib/libchromatix_imx179_15399_preview_binning_new.so \
   vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_preview_new.so:system/vendor/lib/libchromatix_imx179_15399_preview_new.so \
   vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_preview_sunny.so:system/vendor/lib/libchromatix_imx179_15399_preview_sunny.so \
   vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_preview_sunny_new.so:system/vendor/lib/libchromatix_imx179_15399_preview_sunny_new.so  
