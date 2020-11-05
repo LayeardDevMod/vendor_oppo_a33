@@ -276,6 +276,7 @@ PRODUCT_COPY_FILES += \
   vendor/oppo/A37/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
   vendor/oppo/A37/proprietary/vendor/lib/libcalmodule_memsic.so:system/vendor/lib/libcalmodule_memsic.so \
   vendor/oppo/A37/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so
+
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api \
