@@ -272,8 +272,10 @@ PRODUCT_COPY_FILES += \
   vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_preview_binning_new.so:system/vendor/lib/libchromatix_imx179_15399_preview_binning_new.so \
   vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_preview_new.so:system/vendor/lib/libchromatix_imx179_15399_preview_new.so \
   vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_preview_sunny.so:system/vendor/lib/libchromatix_imx179_15399_preview_sunny.so \
-  vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_preview_sunny_new.so:system/vendor/lib/libchromatix_imx179_15399_preview_sunny_new.so  
-
+  vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_preview_sunny_new.so:system/vendor/lib/libchromatix_imx179_15399_preview_sunny_new.so \
+  vendor/oppo/A37/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
+  vendor/oppo/A37/proprietary/vendor/lib/libcalmodule_memsic.so:system/vendor/lib/libcalmodule_memsic.so \
+  vendor/oppo/A37/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api \
