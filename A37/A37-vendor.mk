@@ -276,53 +276,12 @@ PRODUCT_COPY_FILES += \
   vendor/oppo/A37/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
   vendor/oppo/A37/proprietary/vendor/lib/libcalmodule_memsic.so:system/vendor/lib/libcalmodule_memsic.so \
   vendor/oppo/A37/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
-  vendor/oppo/A37/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \
-  vendor/oppo/A37/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
-  vendor/oppo/A37/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
-  vendor/oppo/A37/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
-  vendor/oppo/A37/proprietary/vendor/etc/permissions/qti-vzw-ims-internal.xml:system/vendor/etc/permissions/qti-vzw-ims-internal.xml \
-  vendor/oppo/A37/proprietary/vendor/framework/imscmd.jar:system/vendor/framework/imscmd.jar \
-  vendor/oppo/A37/proprietary/vendor/framework/rcsimssettings.jar:system/vendor/framework/rcsimssettings.jar \
-  vendor/oppo/A37/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
-  vendor/oppo/A37/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
-  vendor/oppo/A37/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
-  vendor/oppo/A37/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
-  vendor/oppo/A37/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
-  vendor/oppo/A37/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
-  vendor/oppo/A37/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
-  vendor/oppo/A37/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
-  vendor/oppo/A37/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
-  vendor/oppo/A37/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
-  vendor/oppo/A37/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
-  vendor/oppo/A37/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
-  vendor/oppo/A37/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
-  vendor/oppo/A37/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
-  vendor/oppo/A37/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
-  vendor/oppo/A37/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
-  vendor/oppo/A37/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
-  vendor/oppo/A37/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
-  vendor/oppo/A37/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
-  vendor/oppo/A37/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
-  vendor/oppo/A37/proprietary/vendor/lib/lib-siputility.so:system/vendor/lib/lib-siputility.so \
-  vendor/oppo/A37/proprietary/vendor/lib/librcc.so:system/vendor/lib/librcc.so \
-  vendor/oppo/A37/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
-  vendor/oppo/A37/proprietary/vendor/lib/vendor.qti.hardware.radio.ims@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.radio.ims@1.0_vendor.so \
-  vendor/oppo/A37/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so \
-  vendor/oppo/A37/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so \
-  vendor/oppo/A37/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0.so 
+  vendor/oppo/A37/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so
 
 PRODUCT_PACKAGES += \
-    ims \
-    imscmd \
-    rcsimssettings \
-    qcnvitems \
-    qcrilhook \
     libloc_api_v02 \
     libloc_ds_api \
     libtime_genoff \
     shutdownlistener \
     TimeService \
-    imscmlibrary \
-    qti-vzw-ims-internal \
-    com.qualcomm.qti.imscmservice@1.0-java \
     qcrilmsgtunnel
