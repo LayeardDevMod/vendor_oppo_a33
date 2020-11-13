@@ -25,6 +25,9 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A33/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt
 
 PRODUCT_COPY_FILES += \
+    vendor/oppo/A33/proprietary/vendor/lib/libactuator_dw9714_15399.so:system/vendor/lib/libactuator_dw9714_15399.so \
+    vendor/oppo/A33/proprietary/vendor/lib/libactuator_dw9714_15399_camcorder.so:system/vendor/lib/libactuator_dw9714_15399_camcorder.so \
+    vendor/oppo/A33/proprietary/vendor/lib/libactuator_dw9714_15399_camera.so:system/vendor/lib/libactuator_dw9714_15399_camera.so \
     vendor/oppo/A33/proprietary/vendor/lib/libchromatix_imx179_15399_snapshot.so:system/vendor/lib/libchromatix_imx179_15399_snapshot.so \
     vendor/oppo/A33/proprietary/vendor/lib/libchromatix_imx179_15399_video_binning.so:system/vendor/lib/libchromatix_imx179_15399_video_binning.so \
     vendor/oppo/A33/proprietary/vendor/lib/libchromatix_imx179_15399_video_hd.so:system/vendor/lib/libchromatix_imx179_15399_video_hd.so \
@@ -57,7 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A33/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
     vendor/oppo/A33/proprietary/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
     vendor/oppo/A33/proprietary/vendor/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
-    vendor/oppo/A33/proprietary/lib/sensors.a6000.so:system/lib/sensors.a6000.so \
+    vendor/oppo/A33/proprietary/lib/sensors.a33f.so:system/lib/sensors.a33f.so \
     vendor/oppo/A33/proprietary/vendor/framework/qcnvitems.jar:system/vendor/framework/qcnvitems.jar \
     vendor/oppo/A33/proprietary/vendor/framework/qcrilhook.jar:system/vendor/framework/qcrilhook.jar \
     vendor/oppo/A33/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
