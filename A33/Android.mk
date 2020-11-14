@@ -17,12 +17,12 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),A37)
+ifeq ($(TARGET_DEVICE),A33)
 
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libloc_api_v02
-LOCAL_MODULE_OWNER := lenovo
+LOCAL_MODULE_OWNER := OPPO
 LOCAL_SRC_FILES := proprietary/vendor/lib/libloc_api_v02.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
@@ -33,7 +33,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libloc_ds_api
-LOCAL_MODULE_OWNER := lenovo
+LOCAL_MODULE_OWNER := OPPO
 LOCAL_SRC_FILES := proprietary/vendor/lib/libloc_ds_api.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
@@ -44,7 +44,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libtime_genoff
-LOCAL_MODULE_OWNER := lenovo
+LOCAL_MODULE_OWNER := OPPO
 LOCAL_SRC_FILES := proprietary/vendor/lib/libtime_genoff.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
@@ -55,7 +55,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
-LOCAL_MODULE_OWNER := lenovo
+LOCAL_MODULE_OWNER := OPPO
 LOCAL_SRC_FILES := proprietary/vendor/app/TimeService/TimeService.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
@@ -67,7 +67,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := shutdownlistener
-LOCAL_MODULE_OWNER := lenovo
+LOCAL_MODULE_OWNER := OPPO
 LOCAL_SRC_FILES := proprietary/vendor/app/shutdownlistener/shutdownlistener.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
@@ -79,7 +79,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := qcrilmsgtunnel
-LOCAL_MODULE_OWNER := lenovo
+LOCAL_MODULE_OWNER := OPPO
 LOCAL_SRC_FILES := proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
