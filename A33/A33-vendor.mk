@@ -52,6 +52,9 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A33/proprietary/vendor/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
     vendor/oppo/A33/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
     vendor/oppo/A33/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
+    vendor/oppo/A33/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/oppo/A33/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/oppo/A33/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
     vendor/oppo/A33/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:system/vendor/firmware/cpp_firmware_v1_4_0.fw \
     vendor/oppo/A33/proprietary/vendor/firmware/a225_pfp.fw:system/vendor/firmware/a225_pfp.fw \
     vendor/oppo/A33/proprietary/vendor/firmware/a225_pm4.fw:system/vendor/firmware/a225_pm4.fw \
@@ -168,6 +171,12 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A33/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
     vendor/oppo/A33/proprietary/vendor/lib/libmmcamera_omnivision_5648_eeprom.so:system/vendor/lib/libmmcamera_omnivision_5648_eeprom.so \
     vendor/oppo/A33/proprietary/vendor/lib/libmmcamera_ov5648_15399.so:system/vendor/lib/libmmcamera_ov5648_15399.so \
+    vendor/oppo/A33/proprietary/vendor/lib/libmmcamera_ov5648_15009.so:system/vendor/lib/libmmcamera_ov5648_15009.so \
+    vendor/oppo/A33/proprietary/vendor/lib/libmmcamera_ov5648_15029.so:system/vendor/lib/libmmcamera_ov5648_15029.so \
+    vendor/oppo/A33/proprietary/vendor/lib/libmmcamera_ov5648_15035.so:system/vendor/lib/libmmcamera_ov5648_15035.so \
+    vendor/oppo/A33/proprietary/vendor/lib/libmmcamera_ov5648_15037.so:system/vendor/lib/libmmcamera_ov5648_15037.so \
+    vendor/oppo/A33/proprietary/vendor/lib/libmmcamera_ov8858_15011.so:system/vendor/lib/libmmcamera_ov8858_15011.so \
+    vendor/oppo/A33/proprietary/vendor/lib/libmmcamera_ov8858_15399.so:system/vendor/lib/libmmcamera_ov8858_15085.so \
     vendor/oppo/A33/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
     vendor/oppo/A33/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/oppo/A33/proprietary/vendor/lib/libmmcamera_s5k3h7_15399.so:system/vendor/lib/libmmcamera_s5k3h7_15399.so \
@@ -282,6 +291,12 @@ PRODUCT_COPY_FILES += \
   vendor/oppo/A33/proprietary/vendor/lib/libcalmodule_gyroscope.so:system/vendor/lib/libcalmodule_gyroscope.so \
   vendor/oppo/A33/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
   vendor/oppo/A33/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so
+
+# Thermal Engine
+PRODUCT_COPY_FILES += \
+    vendor/oppo/A33/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/oppo/A33/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+    vendor/oppo/A33/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
